@@ -55,17 +55,17 @@ namespace CalculatriceConsole
                 {
                     case "1":
                         resultat = num1 + num2;
-                        Console.WriteLine("Le résultat de votre addition est " + resultat);
+                        Console.WriteLine("Le résultat de votre addition " + num1 + " par " + num2 +" votre addition est : " + resultat);
                         break;
 
                     case "2":
                         resultat = num1 - num2;
-                        Console.WriteLine("Le résultat de votre soustraction est " + resultat);
+                        Console.WriteLine("Le résultat de votre soustraction " + num1 + " par " + num2 +" est : " + resultat);
                         break;
 
                     case "3":
                         resultat = num1 * num2;
-                        Console.WriteLine("Le résultat de votre multiplication est " + resultat);
+                        Console.WriteLine("Le résultat de votre multiplication " + num1 +" par "+ num2 +" est : " + resultat);
                         break;
 
                     case "4":
@@ -77,7 +77,7 @@ namespace CalculatriceConsole
                         else
                         {
                             resultat = num1 / num2;
-                            Console.WriteLine("Le résultat de votre division est " + resultat);
+                            Console.WriteLine("Le résultat de votre division" + num1 +" par "+ num2 +" est " + resultat);
                             break;
 
                     }
